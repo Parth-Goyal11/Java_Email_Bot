@@ -13,9 +13,10 @@ How to set this up on your computer:
 
 How to use:
 
-1. Replace the password variable with the 16 character passcode you obtained
-2. Replace sender with your email address
-3. Open the TestFile.xlsx and put the email addresses you want to send and email to along with their names.(KEEP CURRENT FORMAT OF THE SPREADSHEET AS IT IS)
-4. Change the message by changing the email.setSubject and email.setText lines.
-5. With some JAVA knowledge you can add other variables to the emails.
-6. In order to add a new variable create it as a column in the spreadsheet, and use the returnNames() and returnEmails() functions as references to add that new variable into your email.
+1. Open bot.java in src.
+2. Replace the password variable with the 16 character passcode you obtained
+3. Replace sender with your email address
+4. Open the TestFile.xlsx and put the email addresses you want to send and email to along with their names.(KEEP CURRENT FORMAT OF THE SPREADSHEET AS IT IS)
+5. Change the message by changing the email.setSubject and email.setText lines.
+6. With some JAVA knowledge you can add other variables to the emails.
+7. In order to add a new variable create it as a column in the spreadsheet, and use the returnNames() and returnEmails() functions as references to add that new variable into your email.
